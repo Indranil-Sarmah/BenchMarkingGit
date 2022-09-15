@@ -244,3 +244,19 @@ Git Stash Command - Git Commands - Edureka
 Usage: git stash drop  
 
 This command discards the most recently stashed changeset.
+
+----------------------
+To view the name of the remote
+
+git remote -v
+
+---------------------------------------
+To delet a branch locally and remotely
+
+Shif to an another branch
+git branch -d <branch_name>
+
+This, will delete the branch locally
+
+git push <origin> --delete <branch_name> 
+---------------------------------------
