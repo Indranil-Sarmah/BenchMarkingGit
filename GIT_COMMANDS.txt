@@ -244,3 +244,6 @@ Git Stash Command - Git Commands - Edureka
 Usage: git stash drop  
 
 This command discards the most recently stashed changeset.
+
+git reset --hard 2ac835c
+git push -f origin resource-tracker-master
